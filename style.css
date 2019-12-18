@@ -143,3 +143,10 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+@media screen and (max-width: 600px) {
+    content{
+        width: 90%;
+        height: 90%;
+    }
+}
