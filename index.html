@@ -1,170 +1,54 @@
 <!DOCTYPE html>
-<html>
-<! –– Отзывы для pandastudent.ru by Grigory Kovalev 2019 ––>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Мудрая Панда: отзывы</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href='ressys/logo.png'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue.js Reviews Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+  <script defer src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class='wrap'>
-        <div class='element panda'>
-            <div class='logo'>
-                <a target="_blank" href="https://vk.com/pandastudent" class="vk"></a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=79537819939" class="wh"></a>
-                <a target="_blank" href="tel:+7 (953) 781-99-39" class="in"></a>
-            </div>
-            <p>Мудрая Панда:<br>отзывы</p>
-        </div>
-        <div class='element' onclick="show('res/p1/1.jpg')">
-            <div class='img' style="background-image: url('res/p1/1.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/2.jpg')">
-            <div class='img' style="background-image: url('res/p1/2.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/3.jpg')">
-            <div class='img' style="background-image: url('res/p1/3.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/4.jpg')">
-            <div class='img' style="background-image: url('res/p1/4.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/5.jpg')">
-            <div class='img' style="background-image: url('res/p1/5.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/6.jpg')">
-            <div class='img' style="background-image: url('res/p1/6.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/7.jpg')">
-            <div class='img' style="background-image: url('res/p1/7.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/8.jpg')">
-            <div class='img' style="background-image: url('res/p1/8.jpg');">
-
-            </div>
-        </div><div class='element' onclick="show('res/p1/9.jpg')">
-            <div class='img' style="background-image: url('res/p1/9.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/10.jpg')">
-            <div class='img' style="background-image: url('res/p1/10.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/11.jpg')">
-            <div class='img' style="background-image: url('res/p1/11.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/12.jpg')">
-            <div class='img' style="background-image: url('res/p1/12.jpg');">
-
-            </div>
-        </div><div class='element' onclick="show('res/p1/13.jpg')">
-            <div class='img' style="background-image: url('res/p1/13.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/14.jpg')">
-            <div class='img' style="background-image: url('res/p1/14.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/15.jpg')">
-            <div class='img' style="background-image: url('res/p1/15.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/16.jpg')">
-            <div class='img' style="background-image: url('res/p1/16.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/17.jpg')">
-            <div class='img' style="background-image: url('res/p1/17.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/18.jpg')">
-            <div class='img' style="background-image: url('res/p1/18.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/19.png')">
-            <div class='img' style="background-image: url('res/p1/19.png');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/20.png')">
-            <div class='img' style="background-image: url('res/p1/20.png');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/21.png')">
-            <div class='img' style="background-image: url('res/p1/21.png');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/22.png')">
-            <div class='img' style="background-image: url('res/p1/22.png');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/23.png')">
-            <div class='img' style="background-image: url('res/p1/23.png');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/24.jpg')">
-            <div class='img' style="background-image: url('res/p1/24.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/25.jpg')">
-            <div class='img' style="background-image: url('res/p1/25.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/26.jpg')">
-            <div class='img' style="background-image: url('res/p1/26.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/27.jpg')">
-            <div class='img' style="background-image: url('res/p1/27.jpg');">
-
-            </div>
-        </div>
-        <div class='element' onclick="show('res/p1/28.jpg')">
-            <div class='img' style="background-image: url('res/p1/28.jpg');">
-
-            </div>
-        </div>
-        <div class='element nav'>
-            <a href="page2.html">
-            
-            </a>
-        </div>
+  <div id="app">
+    <div class="header">
+        <div class="logo"></div>
+        <h1>Мудрая Панда отзывы
+            <span></span>
+        </h1>
     </div>
-    <div class='content' id='content' style='display:none;'>
-        <img src="res/1.jpg" alt="Отзыв" id='img'>
+    
+    <div class="gallery">
+
+      <img v-for="image in paginatedImages" :key="image" :src="`images/${image}.png`" 
+           alt="Идет загрузка" @click="showImage(image)">
     </div>
-    <script src="engine.js"></script>
+
+    <div class="contacts">
+
+        <a href="https://t.me/pand_student" class="tg" target="_blank"></a>
+
+        <a href="https://vk.com/pandastudent" class="vk" target="_blank"></a>
+
+        <a href="https://wa.me/79537819939" class="wh" target="_blank"></a>
+        
+    </div>
+
+    <div class="pagination">
+      <button @click="prevPage" :disabled="currentPage === 1">Предыдущая</button>
+      <button @click="nextPage" :disabled="currentPage === totalPages">Следующая</button>
+    </div>
+
+    <!-- Popup Modal -->
+    <div v-if="showModal" class="modal" @click="closeModal">
+      <div class="modal-content" @click.stop>
+        <img :src="`images/${currentImage}.png`" :alt="`Image ${currentImage}`">
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
