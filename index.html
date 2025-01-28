@@ -48,7 +48,7 @@
     <!-- Popup Modal -->
     <div v-if="showModal" class="modal" @click="closeModal">
       <div class="modal-content" @click.stop>
-        <img :src="`images/${currentImage}.png`" :alt="`Image ${currentImage}`">
+        <img :src="`images/${currentImage}.png`" :alt="`Image ${currentImage}`" @click="closeModal">
       </div>
     </div>
 
