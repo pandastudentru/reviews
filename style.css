@@ -73,6 +73,7 @@ body{
 
     gap: 10px;
     left: 10px;
+    display: none;
 }
 
 #app .contacts a{
